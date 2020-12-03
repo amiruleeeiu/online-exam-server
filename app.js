@@ -29,7 +29,7 @@ mongoose
     }).then(data=>{
         console.log("server running");
     })
-const PORT=process.env.PORT || 8080;
-app.listen(PORT,()=>{
+
+app.listen(process.env.PORT || 3001,()=>{
     console.log("Server Running Successfully");
 })
